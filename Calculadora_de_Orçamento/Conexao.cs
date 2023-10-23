@@ -27,9 +27,8 @@ namespace Calculadora_de_Orçamento
             try
             {
 
-                var accessKey = "AKIA2CB6BPVXTHJA3ZDF";
-                var secretKey = "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";
-                var region = "sa-east-1";
+                
+                
 
                 var client = new AmazonDynamoDBClient(accessKey, secretKey, RegionEndpoint.GetBySystemName(region));
 
@@ -75,9 +74,7 @@ namespace Calculadora_de_Orçamento
         {
             try
             {
-                var accessKey = "AKIA2CB6BPVXTHJA3ZDF";
-                var secretKey = "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";
-                var region = "sa-east-1";
+                
 
                 
 
@@ -117,9 +114,7 @@ namespace Calculadora_de_Orçamento
 
         public static int Contador_usuarios()
         {
-            var accessKey = "AKIA2CB6BPVXTHJA3ZDF";
-            var secretKey = "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";
-            var region = "sa-east-1";
+            
 
             var client = new AmazonDynamoDBClient(accessKey, secretKey, RegionEndpoint.GetBySystemName(region));
 
@@ -150,9 +145,7 @@ namespace Calculadora_de_Orçamento
         {
             try
             {
-                var accessKey = "AKIA2CB6BPVXTHJA3ZDF";
-                var secretKey = "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";
-                var region = "sa-east-1";
+                
 
                 var client = new AmazonDynamoDBClient(accessKey, secretKey, RegionEndpoint.GetBySystemName(region));
                 string tableName = "Registros";
@@ -186,9 +179,7 @@ namespace Calculadora_de_Orçamento
         public async Task<List<string>> BuscarValoresAsync(string Id, string Tipo)
         {
 
-            var accessKey = "AKIA2CB6BPVXTHJA3ZDF";
-            var secretKey = "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";
-            var region = "sa-east-1";
+            
 
 
 
@@ -227,9 +218,7 @@ namespace Calculadora_de_Orçamento
         
         public void Deletar_registro(string Id_Usuario, string Descricao)
         {
-            var accessKey = "AKIA2CB6BPVXTHJA3ZDF";
-            var secretKey = "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";
-            var region = "sa-east-1";
+            
 
 
 
@@ -274,9 +263,7 @@ namespace Calculadora_de_Orçamento
         public async Task<List<string>> BuscarValoresTodosAsync(string Id)
         {
 
-            var accessKey = "AKIA2CB6BPVXTHJA3ZDF";
-            var secretKey = "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";
-            var region = "sa-east-1";
+            
 
 
 
@@ -318,9 +305,7 @@ namespace Calculadora_de_Orçamento
         public  async Task<bool> Atualizar_RegistroAsync(string Id_Usuario,string Descricao, string mudança, string Onde_alterar)
         {
 
-            var accessKey = "AKIA2CB6BPVXTHJA3ZDF";
-            var secretKey = "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";
-            var region = "sa-east-1";
+            
 
 
 
@@ -367,9 +352,7 @@ namespace Calculadora_de_Orçamento
         {
             try
             {
-                var accessKey = "AKIA2CB6BPVXTHJA3ZDF";
-                var secretKey = "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";
-                var region = "sa-east-1";
+                
 
                 var client = new AmazonDynamoDBClient(accessKey, secretKey, RegionEndpoint.GetBySystemName(region));
 
