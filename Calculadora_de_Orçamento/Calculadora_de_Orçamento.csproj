@@ -153,12 +153,6 @@
     <Compile Include="Tela_deletar_registro.Designer.cs">
       <DependentUpon>Tela_deletar_registro.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tela_extrato.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Tela_extrato.Designer.cs">
-      <DependentUpon>Tela_extrato.cs</DependentUpon>
-    </Compile>
     <Compile Include="Tela_cadastro_registro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -186,9 +180,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Tela_deletar_registro.resx">
       <DependentUpon>Tela_deletar_registro.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Tela_extrato.resx">
-      <DependentUpon>Tela_extrato.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tela_cadastro_registro.resx">
       <DependentUpon>Tela_cadastro_registro.cs</DependentUpon>
